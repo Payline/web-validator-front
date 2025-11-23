@@ -1,0 +1,30 @@
+:root {
+  --clr-lite: #f0f0f0;
+  --clr-main: #213555;
+  --clr-main-lite: #4f709c;
+  --clr-accent: #e5d283;
+  --clr-white: #fff;
+
+  --clr-shadow: #aaaa;
+
+  --base-width: 1200px;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: var(--font-open-sans) !important;
+  line-height: 1.6rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
